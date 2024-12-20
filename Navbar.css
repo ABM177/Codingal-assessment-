@@ -6,13 +6,11 @@
   background-color: #333;
   color: white;
 }
-
 .links 
 {
   display: flex;
   align-items: center;
 }
-
 .timer 
 {
   margin-left: 20px;
