@@ -7,7 +7,6 @@ const Navbar = () => {
     const [time, setTime] = useState(600);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isTimerRunning, setIsTimerRunning] = useState(true);
-
     useEffect(() => {
         let timer: NodeJS.Timeout;
         if (isTimerRunning && time > 0) {
@@ -41,7 +40,8 @@ const Navbar = () => {
                 />
             )}
         </nav>
+
+        
     );
 };
-
 export default Navbar;
